@@ -3,7 +3,6 @@ import { connectDB } from "@/lib/mongodb"
 import { User } from "@/models/user.model"
 
 export const { handlers, auth, signIn, signOut } = NextAuth({
-    debug: true,
     trustHost: true,
     secret: process.env.AUTH_SECRET,
     providers: [
