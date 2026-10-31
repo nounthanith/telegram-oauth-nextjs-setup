@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div>
       <LoginButton />
-      <Link href={"/profile"}>Profile page</Link>
+      <Link href={"/profile"}>Profile</Link>
     </div>
   );
 }
